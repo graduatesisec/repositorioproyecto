@@ -1,0 +1,46 @@
+<header class="mat-elevation-z3">
+    <div class="logo">
+      <a href="PrincipalComponent" autofocus>
+        <img src="assets/liceo.png" alt="Logo de la Universidad">
+      </a>
+      <div class="instituto-info">
+        <div class="titulorepositorio_1">
+          <p>Repositorio del Instituto Superior Tecnológico</p>
+        </div>
+        <div class="titulorepositorio_2">
+          <p style="font-size: 1.8em;">LICEO CRISTIANO</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section class="resultados-section">
+    <h2>Resultados obtenidos</h2>
+    <table class="resultados-table">
+      <thead>
+        <tr>
+          <th>Fecha de publicación</th>
+          <th>Título</th>
+          <th>Autor/es</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let resultado of resultados">
+          <td>{{ resultado.fecha }}</td>
+          <td><a [href]="resultado.enlace">{{ resultado.titulo }}</a></td>
+          <td>
+            <span *ngFor="let autor of resultado.autores; let last = last">
+              <a [href]="autor.enlace">{{ autor.nombre }}</a>{{ !last ? ' - ' : '' }}
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="no-results">{{ mensajeNoResultados }}</p>
+  </section>
+  
+  <footer class="footer mat-elevation-z3">
+    <div class="footer-content">
+      <p class="mat-body-1">Copyright<small>©</small> Instituto Tecnológico Superior Liceo Cristiano - 2024</p>
+    </div>
+  </footer>

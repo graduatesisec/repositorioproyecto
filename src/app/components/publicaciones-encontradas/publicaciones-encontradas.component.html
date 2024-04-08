@@ -1,0 +1,72 @@
+<header class="mat-elevation-z3">
+  <div class="logo">
+    <a href="PrincipalComponent" autofocus> 
+      <img src="assets/liceo.png" alt="Logo de la Universidad">
+    </a>
+    <div class="instituto-info">
+      <div class="titulorepositorio_1">
+        <p>Repositorio del Instituto Superior Tecnológico</p>
+      </div>
+      <div class="titulorepositorio_2">
+        <p style="font-size: 1.8em;">LICEO CRISTIANO</p>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="pestanas-section">
+  <div class="pestanas">
+    <a href="PrincipalComponent">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Carreras</button>
+      <div class="dropdown-content">
+        <a href="subtema1">Tecnología Superior en Administración</a>
+        <a href="subtema2">Tecnología Superior en Desarrollo de Software</a>
+        <a href="subtema3">Asistencia Pedagógica</a>
+        <a href="subtema4">Teología</a>
+      </div>
+    </div>
+    <a href="resultados">Registros</a>
+  </div>
+</section>
+  <div class="header-image">
+    <img src="assets/estudiante.jpg" alt="Imagen de encabezado">
+  </div>
+  <main>
+    <h2 class="resultado_">Resultados de la búsqueda</h2>
+    <div class="registro-encontrado">
+      <!-- <div class="circulo">
+        <p>1</p>
+      </div> -->
+      <div class="palabras">
+        <p>Se encontró</p>
+        <p class="circulo">1</p>
+        <p>registro/s</p>
+      </div>
+    </div>
+  
+    <table class="resultados-table">
+      <thead>
+        <tr>
+          <th>Fecha de publicación</th>
+          <th>Título</th>
+          <th>Autor/es</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024</td>
+          <td><a routerLink="/informaciondocumento">SINDROME METABOLICO LA PANDEMIA DEL SIGLO</a></td>
+          <td>
+            <a routerLink="/informaciondocumento">Cervantes Coka, Manuel Antonio -</a> <!-- - -->
+            <a routerLink="/informaciondocumento"> Cañarte Soledispa, Karina</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  
+  <footer class="footer mat-elevation-z3">
+    <div class="footer-content">
+      <p class="mat-body-1">Copyright<small>©</small> Instituto Superior Tecnológico Liceo Cristiano - 2024</p>
+    </div>
+  </footer>

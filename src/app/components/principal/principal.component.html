@@ -1,0 +1,134 @@
+<header class="mat-elevation-z3">
+  <div class="logo">
+    <a href="PrincipalComponent" autofocus>
+      <img src="assets/liceo.png" alt="Logo de la Universidad">
+    </a>
+    <div class="instituto-info">
+      <div class="titulorepositorio_1">
+        <p>Repositorio del Instituto Superior Tecnológico</p>
+      </div>
+      <div class="titulorepositorio_2">
+        <p style="font-size: 1.8em;">LICEO CRISTIANO</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="pestanas-section">
+  <div class="pestanas">
+    <a href="PrincipalComponent">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Carreras</button>
+      <div class="dropdown-content">
+        <a href="subtema1">Tecnología Superior en Administración</a>
+        <a href="subtema2">Tecnología Superior en Desarrollo de Software</a>
+        <a href="subtema3">Asistencia Pedagógica</a>
+        <a href="subtema4">Teología</a>
+      </div>
+    </div>
+    <a href="resultados">Registros</a>
+  </div>
+</section>
+<body>
+  <div class="header-image">
+    <img src="assets/estudiante.jpg" alt="Imagen de encabezado">
+  </div>
+  <div class="textosuperior">
+    <p>El Repositorio Institucional del Instituto Tecnológico Superior Liceo Cristiano administra, conserva y comparte de manera abierta los documentos académicos producidos por la institución, tales como tesis, proyectos de fin de carrera, libros, artículos, resultados de investigación y materiales docentes. Este repositorio actúa como un archivo permanente que resguarda la producción científica de sus estudiantes, docentes y colaboradores, con el objetivo de aumentar su visibilidad, accesibilidad e impacto en la comunidad académica y en la sociedad en general.</p>
+  </div>
+  <hr class="mat-divider">
+  <section>
+    <h2 class="mat-h2">Carreras</h2>
+    <hr class="mat-divider">
+    <div class="carreras-container">
+      <mat-card class="carrera">
+        <mat-card-header>
+          <div mat-card-avatar class="logo-avatar">
+            <img src="assets/liceo.png" alt="Logo de la Carrera 1">
+          </div>
+          <mat-card-title>Tecnología Superior en Administración</mat-card-title>
+        </mat-card-header>
+        <mat-card-actions>
+          <a mat-button routerLink="/subtema1">Ingresar al repositorio</a>
+        </mat-card-actions>
+      </mat-card>
+  
+      <mat-card class="carrera">
+        <mat-card-header>
+          <div mat-card-avatar class="logo-avatar">
+            <img src="assets/liceo.png" alt="Logo de la Carrera 2">
+          </div>
+          <mat-card-title>Tecnología Superior en Desarrollo de Software</mat-card-title>
+        </mat-card-header>
+        <mat-card-actions>
+          <a mat-button routerLink="/subtema2">Ingresar al repositorio</a>
+        </mat-card-actions>
+      </mat-card>
+  
+      <mat-card class="carrera">
+        <mat-card-header>
+          <div mat-card-avatar class="logo-avatar">
+            <img src="assets/liceo.png" alt="Logo de la Carrera 3">
+          </div>
+          <mat-card-title>Asistencia Pedagógica</mat-card-title>
+        </mat-card-header>
+        <mat-card-actions>
+          <a mat-button routerLink="/subtema3">Ingresar al repositorio</a>
+        </mat-card-actions>
+      </mat-card>
+  
+      <mat-card class="carrera center">
+        <mat-card-header>
+          <div mat-card-avatar class="logo-avatar">
+            <img src="assets/liceo.png" alt="Logo de la Carrera 4">
+          </div>
+          <mat-card-title>Teología</mat-card-title>
+        </mat-card-header>
+        <mat-card-actions>
+          <a mat-button routerLink="/subtema4">Ingresar al repositorio</a>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </section>
+
+  <section class="opciones_relacionadas">
+    <h2 class="mat-h2">Otras opciones relacionadas</h2>
+    <hr class="mat-divider-orange">
+    <table class="opciones-relacionadas">
+      <tr>
+        <td class="opcion">
+          <h3>Autor</h3>
+        </td>
+        <td class="detalle">
+          <a routerLink="/resultados">Cervantes Coka, Manuel Antonio - Cañarte Soledispa, Karina</a>
+          <div class="circulo">1</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="opcion">
+          <h3>Título</h3>
+        </td>
+        <td class="detalle">
+          <a routerLink="/resultados">SINDROME METABOLICO LA PANDEMIA DEL SIGLO</a>
+          <div class="circulo">1</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="opcion">
+          <h3>Fecha de lanzamiento</h3>
+        </td>
+        <td class="detalle">
+          <a routerLink="/resultados">2024 - 2025</a>
+          <div class="circulo">1</div>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <footer class="footer mat-elevation-z3">
+    <div class="footer-content">
+      <p class="mat-body-1">Copyright<small>©</small> Instituto Superior Tecnológico Liceo Cristiano - 2024</p>
+    </div>
+  </footer>
+</body>
+

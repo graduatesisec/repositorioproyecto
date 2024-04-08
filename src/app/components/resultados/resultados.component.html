@@ -1,0 +1,129 @@
+<header class="mat-elevation-z3">
+  <div class="logo">
+    <a href="PrincipalComponent" autofocus>
+      <img src="assets/liceo.png" alt="Logo de la Universidad">
+    </a>
+    <div class="instituto-info">
+      <div class="titulorepositorio_1">
+        <p>Repositorio del Instituto Superior Tecnológico</p>
+      </div>
+      <div class="titulorepositorio_2">
+        <p style="font-size: 1.8em;">LICEO CRISTIANO</p>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="pestanas-section">
+  <div class="pestanas">
+    <a href="PrincipalComponent">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Carreras</button>
+      <div class="dropdown-content">
+        <a href="subtema1">Tecnología Superior en Administración</a>
+        <a href="subtema2">Tecnología Superior en Desarrollo de Software</a>
+        <a href="subtema3">Asistencia Pedagógica</a>
+        <a href="subtema4">Teología</a>
+      </div>
+    </div>
+    <a href="resultados">Registros</a>
+  </div>
+</section>
+
+<div class="header-image">
+  <img src="assets/estudiante.jpg" alt="Imagen de encabezado">
+</div>
+<body>
+  <!-- <section class="busqueda-section">
+    <h2>Búsqueda</h2>
+    <div class="busqueda-filtros">
+      <p>Buscar:</p>
+      <select>
+        <option value="todos">Todo el repositorio</option>
+        <option value="administracion">Carrera de Tecnología Superior en Administración</option>
+        <option value="software">Carrera de Tecnología Superior en Desarrollo de Software</option>
+        <option value="pedagogica">Carrera de Asistencia pedagógica</option>
+        <option value="teologia">Carrera de Teología</option>
+      </select>
+    </div>
+    <h3>Filtros</h3>
+    <div class="busqueda-filtros">
+      <select>
+        <option value="titulo">Título</option>
+        <option value="autor">Autor</option>
+        <option value="fecha">Fecha</option>
+      </select>
+      <p>igual a</p>
+      <input type="text" placeholder="Ingrese su búsqueda..."> -->
+      <!-- <button (click)="buscar()">Buscar</button> -->
+    <!-- </div>
+  </section> -->
+
+  <!-- Sección de opciones relacionadas -->
+  <section class="opciones-relacionadas">
+      <h2>Otras opciones</h2>
+      <h2>relacionadas</h2>
+      <div class="opcion">
+        <h3 style="background-color: rgb(0, 103, 177);">Autor</h3>
+        <table>
+          <tr>
+            <td><a routerLink="/publicacionesencontradas">Cervantes Coka, Manuel Antonio - Cañarte Soledispa, Karina</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="opcion">
+        <h3 style="background-color: rgb(0, 103, 177);">Título</h3>
+        <table>
+          <tr>
+            <td><a routerLink="/publicacionesencontradas">SINDROME METABOLICO LA PANDEMIA DEL SIGLO</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="opcion">
+        <h3 style="background-color: rgb(0, 103, 177);">Fecha de lanzamiento</h3>
+        <table>
+          <tr>
+            <td><a routerLink="/publicacionesencontradas">2024 - 2025</a></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section class="resultados-section">
+      <!-- <hr class="mat-divider-orange"> -->
+      <h2>Registros obtenidos</h2>
+      <table class="resultados-table">
+        <thead>
+          <tr>
+            <th>Fecha de publicación</th>
+            <th>Título</th>
+            <th>Autor/es</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2024 - 2025</td>
+            <td><a routerLink="/informaciondocumento">SINDROME METABOLICO LA PANDEMIA DEL SIGLO</a></td>
+            <td>
+              <a routerLink="/informaciondocumento">Cervantes Coka, Manuel Antonio - Cañarte Soledispa, Karina</a>
+              <!-- <a routerLink="/informaciondocumento">Cervantes Coka, Manuel Antonio -</a> -  -->
+              <!-- <a href="https://repositorio.unemi.edu.ec/browse?type=author&value=Ca%C3%B1arte+Soledispa%2C+Karina">Cañarte Soledispa, Karina</a> -->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <p class="no-results">No se encontraron resultados</p> -->
+    </section>
+
+
+  <footer class="footer mat-elevation-z3">
+    <div class="footer-content">
+      <p class="mat-body-1">Copyright<small>©</small> Instituto Superior Tecnológico Liceo Cristiano - 2024</p>
+    </div>
+  </footer>
+</body>
+
+<!-- <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Establecer el enfoque en el enlace del logo al cargar la página
+    document.getElementById('logoLink').focus();
+  });
+</script> -->

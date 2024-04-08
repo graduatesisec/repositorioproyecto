@@ -1,0 +1,76 @@
+<header class="mat-elevation-z3">
+  <div class="logo">
+    <a href="PrincipalComponent" autofocus>
+      <img src="assets/liceo.png" alt="Logo de la Universidad">
+    </a>
+    <div class="instituto-info">
+      <div class="titulorepositorio_1">
+        <p>Repositorio del Instituto Superior Tecnológico</p>
+      </div>
+      <div class="titulorepositorio_2">
+        <p style="font-size: 1.8em;">LICEO CRISTIANO</p>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="pestanas-section">
+  <div class="pestanas">
+    <a href="PrincipalComponent">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Carreras</button>
+      <div class="dropdown-content">
+        <a href="subtema1">Tecnología Superior en Administración</a>
+        <a href="subtema2">Tecnología Superior en Desarrollo de Software</a>
+        <a href="subtema3">Asistencia Pedagógica</a>
+        <a href="subtema4">Teología</a>
+      </div>
+    </div>
+    <a href="resultados">Registros</a>
+  </div>
+</section>
+  <body>
+    <div class="header-image">
+      <img src="assets/estudiante.jpg" alt="Imagen de encabezado">
+    </div>
+    
+    <main>
+      <mat-card class="subtema-card">
+        <mat-card-header>
+          <mat-card-title class="textosuperior_">Teología</mat-card-title>
+          <div mat-card-avatar class="logo-avatar">
+            <img src="assets/liceo.png" alt="Logo del instituto">
+          </div>
+        </mat-card-header>
+      </mat-card>
+
+      <mat-card class="subtema-card">
+        <a routerLink="/noencontrado" class="ver-todas-link">Ver todas las publicaciones</a>
+      </mat-card>
+    
+      <div class="search-section">
+        <h2>Publicaciones recientes</h2>
+        <table class="search-table">
+          <thead>
+            <tr>
+              <th>Autor</th>
+              <th>Título</th>
+              <th>Fecha de lanzamiento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>No se encontraron resultados</td>
+              <td>No se encontraron resultados</td>
+              <td>No se encontraron resultados</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  
+    <footer class="footer mat-elevation-z3">
+      <div class="footer-content">
+        <p class="mat-body-1">Copyright<small>©</small> Instituto Superior Tecnológico Liceo Cristiano - 2024</p>
+      </div>
+    </footer>
+  </body>
