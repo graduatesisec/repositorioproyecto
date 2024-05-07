@@ -1,32 +1,3 @@
-    /* header {
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(0, 103, 177);
-    }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .logo img {
-    max-height: 100px;
-    margin-right: 10px;
-  }
-  
-  
-  .instituto-info {
-    color: rgb(255, 225, 0);
-    font-family: 'Bebas Neue Pro', sans-serif;
-    line-height: 0.7;
-    font-weight: bold;
-    font-size: 1.8em;
-    margin-top: 10px;
-  
-    justify-content: center;
-  } */
-
   header {
     display: flex;
     justify-content: space-between;
@@ -127,10 +98,6 @@
     color: #fff;
   }
   
-  /* .instituto-info .titulorepositorio_2{
-    font-size: 2.4em !important;
-  } */
-  
     .header-image {
       width: 100%;
       max-width: 100%;
@@ -145,23 +112,10 @@
       max-height: 100%;
       margin-top: -9%;
     }
-    
-    /* .title h1 {
-      margin: 0;
-    } */
 
     .informacion-section {
         margin: 20px 0;
       }
-      
-      /* .seccion-titulo,
-      .seccion-autor,
-      .seccion-fecha,
-      .seccion-resumen,
-      .seccion-uri,
-      .seccion-colecciones {
-        margin-left: 17%;
-      } */
 
     .seccion-titulo,
     .seccion-autor,
@@ -187,62 +141,6 @@
     .seccion-resumen .contenido-seccion {
       margin-right: 3%; 
     }
-      
-
-      /* Poner en misma linea */
-      /* .seccion-titulo {
-        display: flex;
-        align-items: baseline;
-      }
-      
-      .seccion-titulo p {
-        margin-right: 3.5%; 
-      }
-
-      .seccion-autor {
-        display: flex;
-        align-items: baseline;
-      }
-
-      .seccion-autor p {
-        margin-right: 3.6%; 
-      }
-
-      .seccion-fecha {
-        display: flex;
-        align-items: baseline;
-      }
-
-      .seccion-fecha p {
-        margin-right: 0.8%; 
-      }
-
-      .seccion-resumen {
-        display: flex;
-        align-items: baseline;
-      }
-
-      .seccion-resumen p {
-        margin-right: 1.9%; 
-      }
-
-      .seccion-uri {
-        display: flex;
-        align-items: baseline;
-      }
-
-      .seccion-uri p {
-        margin-right: 4.6%; 
-      }
-
-      .seccion-colecciones {
-        display: flex;
-        align-items: baseline;
-      }
-
-      .seccion-colecciones p {
-        margin-right: 0.8%; 
-      } */
 
       .texto_detalle{
         text-align: center;
@@ -252,8 +150,6 @@
         background-color: lightgray;
         padding: 8px;
       }
-
-
       
       .contenido-seccion {
         margin-left: 10px;
